@@ -36,6 +36,15 @@
 |------|------|------|
 | [`engine/README.md`](engine/README.md) | 引擎规格说明：状态表 / 规则集 / 时间轴 / 会话规程 | **脚手架（待建）** |
 
+## 运行层（它的身体）
+
+| 路径 | 内容 | 状态 |
+|------|------|------|
+| [`state.md`](state.md) | 它当前的状态——全仓库唯一的强结构文件（气质/情绪/感官/发育参数） | 现行（t=0） |
+| [`memory/README.md`](memory/README.md) | 记忆规则：零散存储、索引取出、遗忘不删除 | 现行 |
+| [`memory/_template.md`](memory/_template.md) | 空白记忆模板（frontmatter 五字段） | 现行 |
+| [`memory/index.md`](memory/index.md) | 记忆索引（自动生成，可从文件完全重建） | 现行 |
+
 ## 模板与存档
 
 | 路径 | 内容 | 状态 |
