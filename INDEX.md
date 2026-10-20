@@ -45,14 +45,11 @@
 | [`memory/_template.md`](memory/_template.md) | 空白记忆模板（frontmatter 五字段） | 现行 |
 | [`memory/index.md`](memory/index.md) | 记忆索引（自动生成，可从文件完全重建） | 现行 |
 
-## 模板与存档
-
-| 路径 | 内容 | 状态 |
-|------|------|------|
-| [`templates/`](templates/) | 四份空白账本模板（分歧账/判断沉淀/经历日志/里程碑） | 旧方向（测量时代）· 存档 |
+## 已清理（2026-10-20）
 
 > 旧方向 = 「可被测量的第二判断主体」。2026-10-20 方向调整为「从婴儿开始生长一个真正的人」。
-> 赌约格式与提名池模板已于 2026-10-20 删除（git 历史可找回）。新方向的内容在 `science/` 与 `engine/`。
+> 已删除：赌约格式（`docs/bet-format.md`）、五本账模板（`templates/`）。git 历史可找回。
+> 新方向的内容在 `science/`、`engine/`、`state.md`、`memory/`。
 
 ---
 
