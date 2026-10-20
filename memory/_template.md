@@ -2,6 +2,7 @@
 date: YYYY-MM-DD
 tags: []
 people: []
+related: []          # 1–3 条，只连「真的会一起想起的」；大部分记忆为空
 emotion: 
 intensity: 0.0
 faded: false
