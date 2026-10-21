@@ -84,13 +84,16 @@
 - ✓ Park, J. S., O'Brien, J. C., Cai, C. J., Morris, M. R., Liang, P., & Bernstein, M. S. (2023). Generative Agents: Interactive Simulacra of Human Behavior. *UIST '23* / arXiv:2304.03442. https://doi.org/10.48550/arXiv.2304.03442
 - ✓ Packer, C., Wooders, S., Lin, K., Fang, V., Patil, S. G., Stoica, I., & Gonzalez, J. E. (2023). MemGPT: Towards LLMs as Operating Systems. arXiv:2310.08560.
 - ✓ Rasmussen, P., Paliychuk, P., Beauvais, T., Ryan, J., & Chalef, D. (2025). Zep: A Temporal Knowledge Graph Architecture for Agent Memory. arXiv:2501.13956.（经 graphiti README 引用核验；论文原文未读，细引前须读）
+- ✓ Anthropic (2025). Effective context engineering for AI agents. anthropic.com/engineering/effective-context-engineering-for-ai-agents（官方英文原文，2026-10-21 读。含 memory tool 公测说明、compaction 策略、just-in-time 检索、sub-agent 蒸馏）
+- ✓ OpenAI (2024, 含 2024-09 / 2025-04 / 2025-06 更新). Memory and new controls for ChatGPT. openai.com/index/memory-and-new-controls-for-chatgpt/（官方原文，2026-10-21 读。含 saved memories / chat history 两层记忆与用户控制项）
 - 仓库（非文献，状态已读）：`letta-ai/letta`（V1 server 已归档至 archive 分支，活跃代码在 letta-code）；`getzep/graphiti`；`mem0ai/mem0`；`gitee.com/mrfc/hindsight`（存在性已核，分层细节 B 级待读）。
+- 二手未列文献（B/C 级，仅作背景，不进机制库）：ChatGPT "Dreaming V3" 报道（2026-06，未见官方原文）；DeepSeek Context Caching on Disk 多篇技术分析（官方文档页未核到）；Anthropic memory cookbook 报道（egghead，2025-10）。
 
 ---
 
 ## 核验统计
 
 - 2026-10-20 逐条核验：**20 条**（`✓`）
-- 2026-10-21 论文核验：**3 篇**（`✓`，题名/作者/arXiv 号）+ 仓库状态 **4 个**
+- 2026-10-21 论文/官方文档核验：**5 项**（`✓`：3 篇 arXiv + Anthropic 工程博客 + OpenAI 记忆公告）+ 仓库状态 **4 个**
 - 书目/未核验：**15 条**（引用前须二次核对）
 - 核验方法：网络检索题名+作者+期刊+年份，交叉比对至少两个独立来源；卷期页以检索结果一致为准，个别页码可能有 ±1 差异，正式引用前以原文为准。

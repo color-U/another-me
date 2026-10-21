@@ -28,7 +28,7 @@
 | [`science/01-机制证据综述.md`](science/01-机制证据综述.md) | 10 个机制域的证据综述、状态变量表、规则草案（A/B/C 分级） | 哪些机制有证据、效应多大 | 第一轮完成 |
 | [`science/02-婴儿期起点.md`](science/02-婴儿期起点.md) | t=0 状态表、Stern 四层自我时间轴、Bowlby 依恋四阶段、静止脸机制 | 从哪开始、按什么顺序长 | 第一轮完成 |
 | [`science/03-脑科学与行为学.md`](science/03-脑科学与行为学.md) | 突触修剪/髓鞘化/睡眠巩固/前额叶晚熟 + 条件化/强化程序/消退 + 神经迷思清单 | 状态怎么变 | 第一轮完成 |
-| [`science/04-现有方案调研.md`](science/04-现有方案调研.md) | Generative Agents / Letta / mem0 / Graphiti 逐项核验 + R1–R5 可偷机制 | 哪些可以抄、哪些必须自己写 | 第一轮完成 |
+| [`science/04-现有方案调研.md`](science/04-现有方案调研.md) | Generative Agents / Letta / mem0 / Graphiti / Anthropic / OpenAI / DeepSeek 逐项核验 + R1–R5 可偷机制 | 哪些可以抄、哪些必须自己写 | 第一轮完成 |
 | [`science/references.md`](science/references.md) | 参考文献：20 条 + 3 篇工程论文逐条核验 + 15 条书目待核 | 出处在哪 | 持续更新 |
 | [`science/README.md`](science/README.md) | 研究索引：每份研究解决什么、还缺什么 | 研究怎么组织 | 现行 |
 
