@@ -87,6 +87,8 @@
 - ✓ Anthropic (2025). Effective context engineering for AI agents. anthropic.com/engineering/effective-context-engineering-for-ai-agents（官方英文原文，2026-10-21 读。含 memory tool 公测说明、compaction 策略、just-in-time 检索、sub-agent 蒸馏）
 - ✓ OpenAI (2024, 含 2024-09 / 2025-04 / 2025-06 更新). Memory and new controls for ChatGPT. openai.com/index/memory-and-new-controls-for-chatgpt/（官方原文，2026-10-21 读。含 saved memories / chat history 两层记忆与用户控制项）
 - 仓库（非文献，状态已读）：`letta-ai/letta`（V1 server 已归档至 archive 分支，活跃代码在 letta-code）；`getzep/graphiti`；`mem0ai/mem0`；`gitee.com/mrfc/hindsight`（存在性已核，分层细节 B 级待读）。
+  **LICENSE 核验（2026-10-21 逐项读 LICENSE 原文）**：mem0ai/mem0 — Apache-2.0（Copyright 2023 Taranjeet Singh）；
+  letta-ai/letta — Apache-2.0（Copyright 2023, Letta authors）；getzep/graphiti — Apache-2.0。
 - 二手未列文献（B/C 级，仅作背景，不进机制库）：ChatGPT "Dreaming V3" 报道（2026-06，未见官方原文）；DeepSeek Context Caching on Disk 多篇技术分析（官方文档页未核到）；Anthropic memory cookbook 报道（egghead，2025-10）。
 
 ## 研究 05：记忆的写入与优化（2026-10-21 核验）
@@ -100,6 +102,46 @@
 - ✓ Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. *Psychological Science*, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x
 - ✓ Wixted, J. T., & Ebbesen, E. B. (1991). On the form of forgetting. *Psychological Science*, 2(6), 409–415. https://doi.org/10.1111/j.1467-9280.1991.tb00175.x
 - ✓ Anderson, J. R., & Schooler, L. J. (1991). Reflections of the environment in memory. *Psychological Science*, 2(6), 396–408. https://doi.org/10.1111/j.1467-9280.1991.tb00174.x
+
+## 引用与合规（防「照搬被指控」）
+
+> 立场：**学思想不抄表达，用机制不拷代码。** 本项目「偷机制」的前提是每一条都能被追溯到出处。
+> 每条新增研究文档发布前，按本节末尾的检查项自查。
+
+**1. 思想 / 公式 / 算法 —— 可以学，必须带出处。**
+公式、机制、设计思想不受版权保护；学术论文的预期用法就是被引用、被实现。
+规则：进入机制库的每条机制必须有 `✓` 条目出处；出处不明的机制不写进规则草案（宁可标「自建待核」，不冒领）。
+
+**2. 逐字引用 —— 短引用 + 引号 + 出处，超长不做。**
+允许 ≤ 30 词的原文引用（研究 04 中的英文原话属此列，合规）。
+禁止：整段照抄、整章节翻译照搬、只改个别词的洗稿。改写必须换成自己的语言和结构。
+
+**3. 代码 —— 一律不复制，只看思想自己实现。**
+默认路径。若确需使用开源代码：三家已核框架均为 **Apache-2.0**，必须满足三件套——
+① 随附 LICENSE 副本；② 保留全部版权与署名声明；③ 修改过的文件显著标注「已修改」。
+做不到三件套 = 不用该代码。
+
+**4. 文档表达 —— 法律风险低，口碑风险高，重点防。**
+洗稿指控几乎全部发生在表达层：章节顺序照搬、句式照搬、命名照搬。
+规则：可以借鉴对方「写了什么」，不得借鉴对方「怎么写的」。
+本研究系列的文档结构固定为本项目格式（研究问题表 → 证据 → 约束 → 规则草案 → 工程结论），
+已核验过的他人文档不作为结构范本。
+
+**5. 商标 —— 可陈述来源，不得暗示背书。**
+可以说「参考了 X 的做法（链接）」；不得写「基于 X 构建」除非为真；
+不得使用他人名称/logo 暗示认可或关联。Apache-2.0 §6 明确不授予商标权。
+
+**6. 大厂产品 —— 只引官方公开披露。**
+ChatGPT / Claude / DeepSeek 的机制描述只依据其官方公告与文档，标注「据其官方公告」。
+未公开的内部资料不抄不引——例如泄露的 ChatGPT bio 系统提示词，存在也不采用。
+
+**检查项（发布前逐项打勾）**：
+- [ ] 每个机制都有 `✓` 出处，无「大概是这么说的」
+- [ ] 逐字引用 ≤ 30 词、带引号、紧跟出处
+- [ ] 无代码复制（或已备 Apache-2.0 三件套）
+- [ ] 文档结构、句式未照搬任何已核来源
+- [ ] 无「基于 X」「官方合作」类商标性措辞
+- [ ] 大厂机制描述均标注「据其官方公告/文档」
 
 ---
 
