@@ -89,11 +89,23 @@
 - 仓库（非文献，状态已读）：`letta-ai/letta`（V1 server 已归档至 archive 分支，活跃代码在 letta-code）；`getzep/graphiti`；`mem0ai/mem0`；`gitee.com/mrfc/hindsight`（存在性已核，分层细节 B 级待读）。
 - 二手未列文献（B/C 级，仅作背景，不进机制库）：ChatGPT "Dreaming V3" 报道（2026-06，未见官方原文）；DeepSeek Context Caching on Disk 多篇技术分析（官方文档页未核到）；Anthropic memory cookbook 报道（egghead，2025-10）。
 
+## 研究 05：记忆的写入与优化（2026-10-21 核验）
+
+- ✓ Tulving, E., & Thomson, D. M. (1973). Encoding specificity and retrieval processes in episodic memory. *Psychological Review*, 80(5), 352–373.
+- ✓ Craik, F. I. M., & Lockhart, R. S. (1972). Levels of processing: A framework for memory research. *Journal of Verbal Learning and Verbal Behavior*, 11(6), 671–684.
+- ✓ Brown, R., & Kulik, J. (1977). Flashbulb memories. *Cognition*, 5(1), 73–99.
+- ✓ Neisser, U., & Harsch, N. (1992). Phantom flashbulbs: False recollections of hearing the news about Challenger. In E. Winograd & U. Neisser (Eds.), *Affect and Accuracy in Recall: Studies of "Flashbulb" Memories*. Cambridge University Press.（章节页码待核；数据采集 1986/1989）
+- ✓ Nader, K., Schafe, G. E., & LeDoux, J. E. (2000). Fear memories require protein synthesis in the amygdala for reconsolidation after retrieval. *Nature*, 406, 722–726. https://doi.org/10.1038/35021052
+- ✓ Wilson, M. A., & McNaughton, B. L. (1994). Reactivation of hippocampal ensemble memories during sleep. *Science*, 265(4972), 676–679.
+- ✓ Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. *Psychological Science*, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x
+- ✓ Wixted, J. T., & Ebbesen, E. B. (1991). On the form of forgetting. *Psychological Science*, 2(6), 409–415. https://doi.org/10.1111/j.1467-9280.1991.tb00175.x
+- ✓ Anderson, J. R., & Schooler, L. J. (1991). Reflections of the environment in memory. *Psychological Science*, 2(6), 396–408. https://doi.org/10.1111/j.1467-9280.1991.tb00174.x
+
 ---
 
 ## 核验统计
 
 - 2026-10-20 逐条核验：**20 条**（`✓`）
-- 2026-10-21 论文/官方文档核验：**5 项**（`✓`：3 篇 arXiv + Anthropic 工程博客 + OpenAI 记忆公告）+ 仓库状态 **4 个**
-- 书目/未核验：**15 条**（引用前须二次核对）
+- 2026-10-21 论文/官方文档核验：**14 项**（`✓`：04 的 2 篇 arXiv + Anthropic 工程博客 + OpenAI 记忆公告，05 的 9 篇）+ 仓库状态 **4 个**
+- 书目/未核验：**15 条**（引用前须二次核对）；另 Bjork 必要难度为二手转述，专著待核。
 - 核验方法：网络检索题名+作者+期刊+年份，交叉比对至少两个独立来源；卷期页以检索结果一致为准，个别页码可能有 ±1 差异，正式引用前以原文为准。
