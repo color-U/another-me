@@ -42,16 +42,17 @@
 
 | 层 | 位置 | 回答的问题 |
 |----|------|-----------|
-| **立意** | [`docs/first-principles.md`](docs/first-principles.md) | 为什么只能这样做——七条第一性原理 |
+| **立意** | `README.md`（本文件） | 它是什么、为什么——从零养一个真正的人，长成你的另一半 |
 | **规则** | [`KERNEL.md`](KERNEL.md) | 具体怎么做——十条硬规则、六种机制、阶段关卡、反模式 |
-| **研究** | [`science/`](science/README.md) | 凭什么这么做——三份研究：机制证据、婴儿期起点、脑科学与行为学 |
+| **宪章** | [`docs/first-principles.md`](docs/first-principles.md) | 给 AI 的不可违反前提（人不用读，AI 每次会话前读） |
+| **研究** | [`science/`](science/README.md) | 凭什么这么做——五份研究：机制证据、婴儿期起点、脑科学与行为学、现有方案、记忆写入与优化 |
 | **引擎** | [`engine/`](engine/README.md) | 怎么跑起来——状态表/规则集/时间轴/会话规程（脚手架，待建） |
 
 ## 从哪读起
 
-1. **想懂它是什么** → 本文件 + [`docs/first-principles.md`](docs/first-principles.md)
+1. **想懂它是什么** → 本文件（人读到这里就够了；细节去 [`science/02-婴儿期起点.md`](science/02-婴儿期起点.md) 看它从哪开始）
 2. **想懂它怎么长** → [`science/02-婴儿期起点.md`](science/02-婴儿期起点.md) → [`science/03-脑科学与行为学.md`](science/03-脑科学与行为学.md)
-3. **想验证依据** → [`science/references.md`](science/references.md)（20 条已核验）
+3. **想验证依据** → [`science/references.md`](science/references.md)（34 项已核验 + 引用合规规则）
 4. **想跑起来** → `engine/`（待建；当前阶段用 `KERNEL.md` 的会话协议手动跑）
 
 ## 不需要写代码
