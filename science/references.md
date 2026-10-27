@@ -136,6 +136,49 @@
 - ✓ Wixted, J. T., & Ebbesen, E. B. (1991). On the form of forgetting. *Psychological Science*, 2(6), 409–415. https://doi.org/10.1111/j.1467-9280.1991.tb00175.x
 - ✓ Anderson, J. R., & Schooler, L. J. (1991). Reflections of the environment in memory. *Psychological Science*, 2(6), 396–408. https://doi.org/10.1111/j.1467-9280.1991.tb00174.x
 
+## 研究 10：计算心理框架（2026-10-27 核验）
+
+> 与「研究 04」同类：这是**工程文献**（仓库 / 源码 / 会议 demo），不是心理科学证据。
+> 分级：`✓` = 2026-10-27 实际打开原文或源码读过；`书目` = 经典著作，出版信息未逐项核；`待核` = 只有通行说法，无可靠出处。
+
+**代码与仓库（LICENSE 逐字读过）**
+
+- ✓ `joschabach/micropsi2` — MicroPsi 认知架构的 Python 实现，最后提交 2016-04-22。
+  实际读取：`micropsi_core/nodenet/stepoperators.py`，类 `DoernerianEmotionalModulators`（逐行读）。
+  **LICENSE：MIT**。原文首行：`All parts of MicroPsi2 are under MIT license, unless marked otherwise.`
+  版权行：`Copyright (c) 2015 micropsi industries GmbH`。
+  本研究只借**公式与结构**，未复制任何代码（见「引用与合规」第 3 条）。
+- ✓ `google-deepmind/concordia` — 生成式社会模拟库，`pip install gdm-concordia`；技术报告 arXiv:2312.03664。
+  **LICENSE：Apache-2.0**（`LICENSE` 原文已读）。
+  设计模式报告 arXiv:2507.08892 **仅见 README 提及，原文未读**。
+- ✓ `HumanoidAgents/HumanoidAgents` — arXiv:2310.05418 的代码仓库。
+  **LICENSE：Apache-2.0**（`LICENSE` 原文已读）。
+- ✓ `GAIPS/FAtiMA-Toolkit` — C# 情绪 / 社会智能角色工具集，源自 2005 年 FAtiMA 架构；六个资产见 README。
+  **LICENSE：Apache-2.0**（README 明示；LICENSE 文件未逐字读，按 `待核` 对待）。
+
+**论文 / 会议（题名 + 年份 + 出处已核）**
+
+- ✓ Bach, J. (2015). Modeling motivation in MicroPsi 2. *Proceedings of the 8th Conference on Artificial General Intelligence (AGI-15)*, LNCS.（题名 / 年份 / 会议已核；卷号与页码 `待核`）
+- ✓ Wang, Z., Chiu, Y. Y., & Chiu, Y. C. (2023). Humanoid Agents: Platform for Simulating Human-like Generative Agents. arXiv:2310.05418. *EMNLP 2023 System Demonstrations*.（arXiv 摘要页原文已读）
+- ✓ McAdams, D. P., & McLean, K. C. (2013). Narrative identity. *Current Directions in Psychological Science*, 22(3), 233–238.（已在「跨域补充」列过，研究 10 §6.2 引用同一条）
+
+**书目 / 待核（不得当依据）**
+
+- Dörner, D. (1999). *Bauplan für eine Seele*. Rowohlt. `书目`
+- Bach, J. (2009). *Principles of Synthetic Intelligence: PSI — An Architecture of Motivated Cognition*. Oxford University Press. `书目`
+  （MicroPsi 源码里的注释 `todo: understand the formula in Principles 185` 即指此书；书名与主题据此确认，出版信息未逐项核）
+- Ortony, A., Clore, G. L., & Collins, A. (1988). *The Cognitive Structure of Emotions*. Cambridge University Press. `书目`
+- Mehrabian, A., & Russell, J. A. (1974). *An Approach to Environmental Psychology*. MIT Press. `书目`
+- Anderson, J. R. (2007). *How Can the Human Mind Occur in the Physical Universe?* Oxford University Press. `书目`
+- Scherer, K. R. (2001). Appraisal considered as a process of multilevel sequential checking. In K. R. Scherer, A. Schorr, & T. Johnstone (Eds.), *Appraisal Processes in Emotion*. Oxford University Press. `待核`
+- Marsella, S. C., & Gratch, J. (2009). EMA: A process model of appraisal dynamics. *Cognitive Systems Research*, 10(1), 70–90. `待核`
+- Becker-Asano, C. (2008). *WASABI: Affect simulation for agents with believable interactivity*. PhD thesis, University of Bielefeld. `待核`
+- Popescu, A., Broekens, J., & van Someren, M. (2013). GAMYGDALA: An emotion engine for games. *IEEE Transactions on Affective Computing*. `待核`
+- Laird, J. E., Lebiere, C., & Rosenbloom, P. S. (2017). A standard model of the mind. *AI Magazine*, 38(4), 13–26. `待核`
+- March, J. G., & Olsen, J. P. (2011). The logic of appropriateness. In P. Hedström & P. Bearman (Eds.), *The Oxford Handbook of Analytical Sociology*. `待核`
+- LIDA（Franklin 等）`待核`——本文只按通行说法提及，**未取得可引用的出处**；正式引用前须补核。
+- 成人依恋量表（ECR-R / Brennan, Clark & Shaver, 1998）`待核`——研究 10 §2.6 只用它反证「只有量表没有机制」，不作依据。
+
 ## 引用与合规（防「照搬被指控」）
 
 > 立场：**学思想不抄表达，用机制不拷代码。** 本项目「偷机制」的前提是每一条都能被追溯到出处。
@@ -185,5 +228,6 @@ ChatGPT / Claude / DeepSeek 的机制描述只依据其官方公告与文档，�
 - 2026-10-27 研究 08 文献核验：**4 条**（Lieberman 2007、Pennebaker & Beall 1986、Gross 2002、Larson & Chastain 1990；Gross & Levenson 1993 待核）
 - 2026-10-27 研究 07 文献核验：**2 条**（Sorce et al. 1985、Feinman 1982；Walden & Ogan 1988 待核，Bandura 为书目）
 - 2026-10-27 研究 06 文献核验：**11 条**（`✓`：题名 + 期刊 + 年份，两个独立来源交叉比对；卷页未逐一打开者标「待核」）
+- 2026-10-27 研究 10 工程文献核验：仓库 **4 个**（LICENSE 逐字读 3 个：micropsi2 = MIT、concordia = Apache-2.0、HumanoidAgents = Apache-2.0；FAtiMA 依 README 标待核）+ 论文/会议 **3 条**（`✓`）；书目 **5 条**；待核 **8 条**
 - 书目/未核验：**15 条**（引用前须二次核对）；另 Bjork 必要难度为二手转述，专著待核。
 - 核验方法：网络检索题名+作者+期刊+年份，交叉比对至少两个独立来源；卷期页以检索结果一致为准，个别页码可能有 ±1 差异，正式引用前以原文为准。
