@@ -61,6 +61,21 @@
 - Nutt, D. (2012). *Drugs Without the Hot Air: Minimising the Harms of Legal and Illegal Drugs*. UIT Cambridge. `书目`
 - ✓ Volkow, N. D., Wang, G.-J., Fowler, J. S., & Tomasi, D. (2012). Addiction circuitry in the human brain. *Annual Review of Pharmacology and Toxicology*, 52, 321–336.
 
+## 1.11 语言与情绪概念获得（研究 06 新增）
+
+- ✓ Bretherton, I., & Beeghly, M. (1982). Talking about internal states: The acquisition of an explicit theory of mind. *Developmental Psychology*, 18(6), 906–921.
+- ✓ Ridgeway, D., Waters, E., & Kuczaj, S. A. (1985). Acquisition of emotion-descriptive language: Receptive and productive vocabulary norms for ages 18 months to 6 years. *Developmental Psychology*, 21(5), 901–908.
+- ✓ Widen, S. C., & Russell, J. A. (2003). A closer look at preschoolers' freely produced labels for facial expressions. *Developmental Psychology*, 39(1), 114–128.
+- ✓ Widen, S. C., & Russell, J. A. (2008). Children acquire emotion categories gradually. *Cognitive Development*, 23(2), 291–312. `卷页待核`
+- ✓ Lindquist, K. A., Barrett, L. F., Bliss-Moreau, E., & Russell, J. A. (2006). Language and the perception of emotion. *Emotion*, 6(1), 125–138.
+- ✓ Lindquist, K. A., MacCormack, J. K., & Shablack, H. (2015). The role of language in emotion: Predictions from psychological constructionism. *Frontiers in Psychology*, 6, 444.
+- ✓ Hoemann, K., Xu, F., & Barrett, L. F. (2019). Emotion words, emotion concepts, and emotional development in children: A constructionist hypothesis. *Developmental Psychology*, 55(9), 1830–1849. `卷页待核`
+- ✓ Rescorla, L. (1980). Overextension in early language development. *Journal of Child Language*, 7(2), 321–335. `卷页待核`
+- ✓ Kuhl, P. K., Tsao, F.-M., & Liu, H.-M. (2003). Foreign-language experience in infancy: Effects of short-term exposure and social interaction on phonetic learning. *PNAS*, 100(15), 9096–9101. doi:10.1073/pnas.1532872100
+- ✓ Saffran, J. R., Aslin, R. N., & Newport, E. L. (1996). Statistical learning by 8-month-old infants. *Science*, 274(5294), 1926–1928.
+- ✓ Milligan, K., Astington, J. W., & Dack, L. A. (2007). Language and theory of mind: Meta-analysis of the relation between language ability and false-belief understanding. *Child Development*, 78(2), 622–646.
+- Clark, E. V. (1973). What's in a word? On the child's acquisition of semantics in his first language. In T. E. Moore (Ed.), *Cognitive Development and the Acquisition of Language*. Academic Press. `书目`
+
 ## 跨域补充（研究文档中引用但未单列机制域）
 
 - ✓ Caspi, A. et al. (2003). Influence of life stress on depression: Moderation by a polymorphism in the 5-HTT gene. *Science*, 301(5631), 386–389.
@@ -149,5 +164,6 @@ ChatGPT / Claude / DeepSeek 的机制描述只依据其官方公告与文档，�
 
 - 2026-10-20 逐条核验：**20 条**（`✓`）
 - 2026-10-21 论文/官方文档核验：**14 项**（`✓`：04 的 2 篇 arXiv + Anthropic 工程博客 + OpenAI 记忆公告，05 的 9 篇）+ 仓库状态 **4 个**
+- 2026-10-27 研究 06 文献核验：**11 条**（`✓`：题名 + 期刊 + 年份，两个独立来源交叉比对；卷页未逐一打开者标「待核」）
 - 书目/未核验：**15 条**（引用前须二次核对）；另 Bjork 必要难度为二手转述，专著待核。
 - 核验方法：网络检索题名+作者+期刊+年份，交叉比对至少两个独立来源；卷期页以检索结果一致为准，个别页码可能有 ±1 差异，正式引用前以原文为准。
