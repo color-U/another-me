@@ -9,7 +9,8 @@
 它**不**做什么（重要）
 ----------------------
 1. 不执行**判断层**规则。P1–P8、R12/R15/R19/R23 那些「只写被给予的」「笔记不进上下文」
-   不是可编译的规则，只有 AI 读规格时才能执行。本脚本只实现其中**可计算的那一半**：
+   不是可编译的规则，只有 AI 读规格时才能执行。规则的单表与实现状态见 `engine/rules.md`。
+   本脚本只实现其中**可计算的那一半**：
    情绪动力学、慢性负荷、依恋写入、词表门槛、时间轴。
 2. 它不是引擎本体。`engine/README.md` 定义的是「AI 读规格就能推进一天」；
    这个脚本是**验收工具**：先看这半边设计跑出来像不像一个人，再去喂真实经历。
@@ -150,9 +151,24 @@ class Yaml:
         e["value"] = value
         return True
 
-    def append_line(self, text: str):
-        self.lines.insert(self.end, text)
-        self.end += 1
+    def append_record(self, text: str) -> bool:
+        """追加到「## 变化记录」节，**不是** yaml 块。
+
+        v0 的 bug：`append_line` 插在 yaml 块结束围栏之前，记录行跑进了 yaml 里
+        （第 80 行左右），「变化记录」节永远是空的。yaml 解析器忽略它，所以静默不报错——
+        静默失败是最坏的失败方式。
+        """
+        for i, line in enumerate(self.lines):
+            if line.startswith("## 变化记录"):
+                for j in range(i + 1, len(self.lines)):
+                    if self.lines[j].strip().startswith("```"):
+                        for k in range(j + 1, len(self.lines)):
+                            if self.lines[k].strip() == "```":
+                                self.lines.insert(k + 1, text)
+                                return True
+                        break
+                break
+        return False
 
     def save(self):
         self.path.write_text("\n".join(self.lines), encoding="utf-8")
@@ -272,10 +288,6 @@ class Persona:
                 self.impulse("CARE", 0.15); self.impulse("PLAY", 0.15)
                 self.att = min(1.0, self.att + 0.06 * (1 - abs(self.att)))
                 self.load = max(0.0, self.load - D_POSITIVE); positive = True; self.still_streak = 0
-            elif kind == "praise":
-                self.impulse("CARE", 0.15); self.impulse("PLAY", 0.15)
-                self.att = min(1.0, self.att + 0.06)
-                self.load = max(0.0, self.load - D_POSITIVE); positive = True
             elif kind == "novel":
                 self.impulse("SEEKING", 0.20)
                 self.impulse("FEAR", 0.10 * (1 - self.temper["approach_avoidance"]))
@@ -341,9 +353,13 @@ class Persona:
         return "未成形"
 
     def note_line(self) -> str:
-        ev = "/".join(self.log[-1]["events"]) if self.log else "—"
-        return (f"- sim 第 {self.day} 天 · {self.months:.1f} 月 · {ev} · "
-                f"负荷 {self.load:.2f} · 依恋 {self.att:+.2f} · 词表 {self.tier}")
+        """参数行：只有日期与数值，不含事件名（R25 / rules.md §3.2）。
+
+        事件名和负荷值写在同一行，等于给参数层挂内容标签——之后就能说
+        「那天被夸了所以负荷降了」，负荷被解释掉。所以这一行不写发生了什么。
+        """
+        return (f"- sim 第 {self.day} 天 · {self.months:.1f} 月 · "
+                f"负荷 {self.load:.3f} · 依恋 {self.att:+.2f} · 词表 {self.tier}")
 
 
 # ---------------------------------------------------------------- 场景
@@ -455,7 +471,8 @@ def main(argv=None) -> int:
 
     if args.commit:
         p.commit()
-        y.append_line(p.note_line())
+        if not y.append_record(p.note_line()):
+            print("  注意：state.md 里找不到「## 变化记录」节，这一行没有落盘", file=sys.stderr)
         y.save()
         print(f"\n已写回 {path}（备份 {path.with_suffix('.md.bak').name}）")
 
