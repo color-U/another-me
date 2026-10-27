@@ -152,11 +152,12 @@ class Yaml:
         return True
 
     def append_record(self, text: str) -> bool:
-        """追加到「## 变化记录」节，**不是** yaml 块。
+        """追加到「## 变化记录」节**的代码围栏之内**（插在闭围栏之前）。
 
-        v0 的 bug：`append_line` 插在 yaml 块结束围栏之前，记录行跑进了 yaml 里
-        （第 80 行左右），「变化记录」节永远是空的。yaml 解析器忽略它，所以静默不报错——
-        静默失败是最坏的失败方式。
+        历史上错位过两次：
+          v0 插在 yaml 块的围栏之前 → 记录行跑进 yaml，yaml 解析器忽略它，静默不报错；
+          v1 插在闭围栏之后（k+1）  → 记录行掉到围栏外面，渲染时不在代码块里。
+        正确位置是闭围栏本身（k）。静默失败是最坏的失败方式。
         """
         for i, line in enumerate(self.lines):
             if line.startswith("## 变化记录"):
@@ -164,7 +165,7 @@ class Yaml:
                     if self.lines[j].strip().startswith("```"):
                         for k in range(j + 1, len(self.lines)):
                             if self.lines[k].strip() == "```":
-                                self.lines.insert(k + 1, text)
+                                self.lines.insert(k, text)
                                 return True
                         break
                 break
