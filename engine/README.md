@@ -27,6 +27,7 @@
 python engine/sim.py --days 7 --scenario healthy              # 干跑，不动任何文件
 python engine/sim.py --days 104 --scenario neglect --table    # 养到 24 个月看曲线
 python engine/sim.py --days 7 --commit                        # 写回 state.md（先自动备份 .bak）
+python engine/preview.py                                      # 生成 engine/preview.html（打开就能看曲线）
 ```
 
 时间压缩：**1 真实日 = 1 模拟周**（研究 02 §6），所以 24 个月 ≈ 104 天。
