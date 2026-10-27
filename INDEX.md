@@ -31,7 +31,8 @@
 | [`science/04-现有方案调研.md`](science/04-现有方案调研.md) | Generative Agents / Letta / mem0 / Graphiti / Anthropic / OpenAI / DeepSeek 逐项核验 + R1–R5 可偷机制 | 哪些可以抄、哪些必须自己写 | 第一轮完成 |
 | [`science/05-记忆的写入与优化.md`](science/05-记忆的写入与优化.md) | append-only 的再巩固论证、线索字段、last_hit=测试效应、faded=幂律遗忘；R6–R10 | 记忆怎么写、怎么养 | 第一轮完成 |
 | [`science/06-语言与情绪概念获得.md`](science/06-语言与情绪概念获得.md) | 情绪词四层门槛（L0–L3）、理解先于产出、过度扩展、社会门控；R11–R14 | 它的词从哪来、词表怎么限制情绪 | 第一轮完成 |
-| [`science/references.md`](science/references.md) | 参考文献：45 项逐条核验 + 15 条书目待核 + 引用与合规规则（思想/引用/代码/表达/商标分层） | 出处在哪、怎么抄合规 | 持续更新 |
+| [`science/07-他人经验的引入.md`](science/07-他人经验的引入.md) | 伪异源论证、社会参照机制化、`h` 按维可调、`reference/` 参照集、隐私四级来源；R15–R18 | 补你 / 不是你、外面那部分从哪来 | 第一轮完成 |
+| [`science/references.md`](science/references.md) | 参考文献：47 项逐条核验 + 15 条书目待核 + 引用与合规规则（思想/引用/代码/表达/商标分层） | 出处在哪、怎么抄合规 | 持续更新 |
 | [`science/README.md`](science/README.md) | 研究索引：每份研究解决什么、还缺什么 | 研究怎么组织 | 现行 |
 
 ## 执行层（引擎）
