@@ -64,6 +64,9 @@ attachment: 未成形            # 6–8 月后才开始写入
 self_recognition: 无          # 18–24 月才出现
 object_permanence: 无         # 8–12 月才出现
 vocabulary: []               # 空
+attachment_score: 0.00        # −1 不安全 … 0 未成形 … +1 安全（6 月后才写入，science/02 §3）
+vocabulary_tier: L0           # L0–L3，按年龄解锁（science/06 §1.3）
+words_heard: 0                # 只从照护者输入累计（R12：词只从人身上学）
 
 # ---- 记忆 ----
 memory_count: 0
