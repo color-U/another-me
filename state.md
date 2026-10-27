@@ -54,6 +54,9 @@ senses:
 sleep_debt: 0.0
 pain: 0.0
 stress_load: 0.0
+# 慢性负荷（science/09）：参数层累积，不读「接受与否」，只增、极慢衰减
+chronic_load: 0.0              # 0–1；基线位移、恢复变慢、敏感化都由它派生，不新增独立维度
+load_log: []                   # 只记 {at, delta}，不记内容——参数层不得携带记忆（R25）
 
 # ---- 发育参数 ----
 learning_rate: 1.0           # 窗口全开
