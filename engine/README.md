@@ -11,9 +11,9 @@
 | **判断层**：P1–P8、R12 / R15 / R19 / R23 等 | AI 读 `docs/first-principles.md` 与 `science/` 执行 | 手动 |
 | **会话层**：一场对话怎么开始、怎么推进一天 | `KERNEL.md` 的手动规程 | 手动 |
 
-> **别把 ✅ v0 读成「机制层做完了」。** 研究 01 的八条机制规则（`rules.md` 里的 M1–M8）
-> **一条都没落地**：`pain` / `sleep_debt` / `stress_load` / `learning_rate` 在 `state.md` 里是字段，
-> `sim.py` 从不读它们。`sim.py` 跑的是研究 02 的静止脸、06 的词表、09 的负荷。
+> **状态说明**：上表「机制层 ✅ v0」的覆盖范围限于研究 02 / 06 / 09（情绪回落、基线位移、负荷累积、
+> 依恋写入、词表解锁、时间轴）。研究 01 的八条机制规则（`rules.md` 的 M1–M8）尚未实现：
+> `pain` / `sleep_debt` / `stress_load` / `learning_rate` 为 `state.md` 中已定义但 `sim.py` 未读取的字段。
 
 ## 文件
 
@@ -78,7 +78,7 @@ python engine/preview.py                                      # 生成 engine/pr
 - [x] 研究 09：慢性负荷（机制层，已进 sim）
 - [x] 引擎 v0：`sim.py` 干跑可用
 - [x] `rules.md`：把 R1–R27 合并成一份可查的规则集（v1，2026-10-27：K/M/R 三前缀 + 九条裁定）
-- [ ] 研究 01 的机制规则（M1–M8）落地：`pain` / `sleep_debt` / `stress_load` / `learning_rate` 目前是死字段
+- [ ] 研究 01 的机制规则（M1–M8）实现：`pain` / `sleep_debt` / `stress_load` / `learning_rate` 当前定义于 `state.md` 但未被 `sim.py` 读取
 - [ ] `runbook.md`：会话规程
 
 ---

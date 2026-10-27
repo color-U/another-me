@@ -34,7 +34,7 @@
 | [`science/07-他人经验的引入.md`](science/07-他人经验的引入.md) | 伪异源论证、社会参照机制化、`h` 按维可调、`reference/` 参照集、隐私四级来源；R15–R18 | 补你 / 不是你、外面那部分从哪来 | 第一轮完成 |
 | [`science/08-内心记录.md`](science/08-内心记录.md) | 三类笔记（心理变化 / 想法 / 没说出口的话）、分层读取 L1–L3、表演性防线、自述与变量的对账；R19–R23 | 它的内心怎么记、谁能读 | 第一轮完成 |
 | [`science/09-慢性负荷.md`](science/09-慢性负荷.md) | 叙事层/参数层分离、`chronic_load` 与三后果（基线位移/恢复变慢/敏感化）、P2 作用域补丁；R24–R27 | 拒绝之后影响还在不在 | 第一轮完成 |
-| [`science/10-计算心理框架调研.md`](science/10-计算心理框架调研.md) | PSI / MicroPsi 2 逐行实读（选择阈值、探测率、意外度）、OCC/FAtiMA、PAD/WASABI、ACT-R/LIDA、Concordia/Humanoid Agents；R27 的可操作化候选 | 别人的心理机制能不能借 | 第一轮完成 |
+| [`science/10-计算心理框架调研.md`](science/10-计算心理框架调研.md) | 五类框架的纳入/排除标准与分级；MicroPsi 2 源码级分析（`DoernerianEmotionalModulators` 方程与实现状态）；R27 三因子定义；阴性结果两项；许可与引用约束 | 别人的心理机制能不能借、依据在哪 | 第一轮完成 |
 | [`science/references.md`](science/references.md) | 参考文献：51 项逐条核验 + 15 条书目待核 + 引用与合规规则（思想/引用/代码/表达/商标分层） | 出处在哪、怎么抄合规 | 持续更新 |
 | [`science/README.md`](science/README.md) | 研究索引：每份研究解决什么、还缺什么 | 研究怎么组织 | 现行 |
 
