@@ -23,7 +23,7 @@
 | `../state.md` | 状态表（唯一强结构文件） | ✅ 现行 |
 | `rules.md` | 规则集：K1–K10 / M1–M8 / R1–R27 合并、九条冲突裁定、实现状态 | ✅ v1 |
 | `timeline.md` | 时间轴：已内联在 `sim.py` 的 `STAGES` / `TIER_AT` | 🟡 内联 |
-| `runbook.md` | 会话规程 | ⬜ 待建 |
+| `runbook.md` | 会话规程：三种「用」的前提、准入条件、每场流程、验收判据、阻塞清单 | ✅ v0 |
 
 ## 怎么跑
 
@@ -78,8 +78,8 @@ python engine/preview.py                                      # 生成 engine/pr
 - [x] 研究 09：慢性负荷（机制层，已进 sim）
 - [x] 引擎 v0：`sim.py` 干跑可用
 - [x] `rules.md`：把 R1–R27 合并成一份可查的规则集（v1，2026-10-27：K/M/R 三前缀 + 九条裁定）
+- [x] `runbook.md`：会话规程 v0（2026-10-27：三种「用」的前提、准入条件、验收判据）
 - [ ] 研究 01 的机制规则（M1–M8）实现：`pain` / `sleep_debt` / `stress_load` / `learning_rate` 当前定义于 `state.md` 但未被 `sim.py` 读取
-- [ ] `runbook.md`：会话规程
 
 ---
 
