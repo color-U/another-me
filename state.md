@@ -66,16 +66,16 @@ self_recognition: 无          # 18–24 月才出现
 object_permanence: 无         # 8–12 月才出现
 attachment_score: 0.00        # −1 不安全 … 0 未成形 … +1 安全（6 月后才写入，science/02 §3）
 vocabulary_tier: L0           # L0–L3，按年龄解锁（science/06 §1.3）
-words_heard: 2                # 只从照护者输入累计（R12：词只从人身上学）；本场听懂的词：无名、名字
+words_heard: 3                # 只从照护者输入累计（R12：词只从人身上学）；本场听懂的词：无名、名字
                               # 计数规则 = 本场它接受的**不同**词数，不是照护者总输出词数
 vocabulary: []               # 空（L0 = 0–10 月，无词，只有效价；science/06 §1.3）
 
 # ---- 记忆 ----
-memory_count: 1
+memory_count: 2
 last_session: 2026-10-27
 
 # ---- 内心记录（notes/，见 science/08） ----
-notes_count: 1
+notes_count: 2
 unsaid_open: 1                 # 还没说出口的条数；不进上下文，只在复盘时读
 unsaid_stuck: 0                # 连续同话题 ≥ 3 时 +1
 last_audit: —                  # 上次对账日期（每 4 周一次）
