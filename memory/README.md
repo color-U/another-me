@@ -23,8 +23,8 @@
 | tags | 数组 | 是 | 2–4 个，用于检索 |
 | people | 数组 | 否 | 涉及的人 |
 | related | 数组 | 否 | 0–3 个记忆文件名，只填真的会一起想起的 |
-| emotion | 字符串 | 是 | 一个词 |
-| intensity | 0–1 | 是 | 情绪强度 |
+| emotion | 字符串 | 否 | 一个词，仅当事人自己说出时填 |
+| intensity | 0–1 | 否 | 情绪强度，仅当事人自己说出时填；空表示不知道 |
 | body | 对象 | 否 | temperature / pain / fatigue / posture |
 | senses | 数组 | 否 | 不超过 3 个具体感官细节 |
 | faded | 布尔 | 是 | 默认 false |
@@ -67,7 +67,8 @@
 ## 5. 索引
 
 - `memory/index.md` 由扫描 `memory/*.md` 生成，不手改。
-- 每条一行：`日期 · 文件名 · tags · emotion(intensity) · faded`
+- 索引为一张表，列：`日期 | 文件 | 标签 | 人物 | 情绪 | 强度 | 状态`。
+- `emotion` 为空时该格写「（空）」，`intensity` 为空时写「—」。空值不得改写成 0 或「无」。
 - 索引可随时删除重建，不作为唯一数据源。
 
 ## 6. 检查项

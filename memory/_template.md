@@ -5,9 +5,9 @@ date: YYYY-MM-DD
 time: HH:MM              # 时刻——同样一件事，清晨和深夜记下来是不一样的
 tags: []
 people: []
-related: []              # 1–3 条，只连「真的会一起想起的」
+related: []              # 0–3 条，只连「真的会一起想起的」
 emotion: 
-intensity: 0.0           # 0–1
+intensity:               # 0–1；当事人未说出情绪时留空，不要填 0.0
 body:                    # 当时的身体（记忆是身体记下的，不只是脑子）
   temperature:           # 冷/暖/热——体感，不是气温数字
   pain: 
