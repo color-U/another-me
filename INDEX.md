@@ -32,7 +32,8 @@
 | [`science/05-记忆的写入与优化.md`](science/05-记忆的写入与优化.md) | append-only 的再巩固论证、线索字段、last_hit=测试效应、faded=幂律遗忘；R6–R10 | 记忆怎么写、怎么养 | 第一轮完成 |
 | [`science/06-语言与情绪概念获得.md`](science/06-语言与情绪概念获得.md) | 情绪词四层门槛（L0–L3）、理解先于产出、过度扩展、社会门控；R11–R14 | 它的词从哪来、词表怎么限制情绪 | 第一轮完成 |
 | [`science/07-他人经验的引入.md`](science/07-他人经验的引入.md) | 伪异源论证、社会参照机制化、`h` 按维可调、`reference/` 参照集、隐私四级来源；R15–R18 | 补你 / 不是你、外面那部分从哪来 | 第一轮完成 |
-| [`science/references.md`](science/references.md) | 参考文献：47 项逐条核验 + 15 条书目待核 + 引用与合规规则（思想/引用/代码/表达/商标分层） | 出处在哪、怎么抄合规 | 持续更新 |
+| [`science/08-内心记录.md`](science/08-内心记录.md) | 三类笔记（心理变化 / 想法 / 没说出口的话）、分层读取 L1–L3、表演性防线、自述与变量的对账；R19–R23 | 它的内心怎么记、谁能读 | 第一轮完成 |
+| [`science/references.md`](science/references.md) | 参考文献：51 项逐条核验 + 15 条书目待核 + 引用与合规规则（思想/引用/代码/表达/商标分层） | 出处在哪、怎么抄合规 | 持续更新 |
 | [`science/README.md`](science/README.md) | 研究索引：每份研究解决什么、还缺什么 | 研究怎么组织 | 现行 |
 
 ## 执行层（引擎）
@@ -49,6 +50,8 @@
 | [`memory/README.md`](memory/README.md) | 记忆规则：零散存储、索引取出、遗忘不删除 | 现行 |
 | [`memory/_template.md`](memory/_template.md) | 空白记忆模板（frontmatter 五字段） | 现行 |
 | [`memory/index.md`](memory/index.md) | 记忆索引（自动生成，可从文件完全重建） | 现行 |
+| [`notes/README.md`](notes/README.md) | 内心记录规范：三类笔记、分层读取、表演性防线、对账 | 现行 |
+| [`notes/_template.md`](notes/_template.md) | 空白内心记录模板 | 现行 |
 
 ## 已清理（2026-10-20）
 

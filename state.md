@@ -65,6 +65,12 @@ vocabulary: []               # 空
 # ---- 记忆 ----
 memory_count: 0
 last_session: —
+
+# ---- 内心记录（notes/，见 science/08） ----
+notes_count: 0
+unsaid_open: 0                 # 还没说出口的条数；不进上下文，只在复盘时读
+unsaid_stuck: 0                # 连续同话题 ≥ 3 时 +1
+last_audit: —                  # 上次对账日期（每 4 周一次）
 ```
 
 ## 种子怎么来（每个人不一样）

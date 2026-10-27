@@ -83,6 +83,17 @@
 - Walden, T. A., & Ogan, T. A. (1988). The development of social referencing. *Child Development*, 59(5), 1230–1240. `待核`
 - Bandura, A. (1977). *Social Learning Theory*. Prentice-Hall. `书目`
 
+## 1.13 书写、抑制与自我隐藏（研究 08 新增）
+
+- ✓ Lieberman, M. D., Eisenberger, N. I., Crockett, M. J., Tom, S. M., Pfeifer, J. H., & Way, B. M. (2007). Putting feelings into words: Affect labeling disrupts amygdala activity in response to affective stimuli. *Psychological Science*, 18(5), 421–428. `卷页待核`
+- ✓ Pennebaker, J. W., & Beall, S. K. (1986). Confronting a traumatic event: Toward an understanding of inhibition and disease. *Journal of Abnormal Psychology*, 95(3), 274–281. `卷页待核`
+- ✓ Gross, J. J. (2002). Emotion regulation: Affective, cognitive, and social consequences. *Psychophysiology*, 39(3), 281–291.
+- ✓ Larson, D. G., & Chastain, R. L. (1990). Self-concealment: Conceptualization, measurement, and health implications. *Journal of Social and Clinical Psychology*, 9(4), 439–455.
+- Gross, J. J., & Levenson, R. W. (1993). Emotional suppression: Physiology, self-report, and expressive behavior. *Journal of Personality and Social Psychology*, 64(6), 970–986. `待核`
+
+> 使用边界：以上均为**人类样本**研究。`notes/` 借鉴的是动作同构（命名 / 书写 / 抑制 / 隐藏），
+> 不当作「AI 有同样的内心过程」的证据（研究 08 §1.5）。
+
 ## 跨域补充（研究文档中引用但未单列机制域）
 
 - ✓ Caspi, A. et al. (2003). Influence of life stress on depression: Moderation by a polymorphism in the 5-HTT gene. *Science*, 301(5631), 386–389.
@@ -171,6 +182,7 @@ ChatGPT / Claude / DeepSeek 的机制描述只依据其官方公告与文档，�
 
 - 2026-10-20 逐条核验：**20 条**（`✓`）
 - 2026-10-21 论文/官方文档核验：**14 项**（`✓`：04 的 2 篇 arXiv + Anthropic 工程博客 + OpenAI 记忆公告，05 的 9 篇）+ 仓库状态 **4 个**
+- 2026-10-27 研究 08 文献核验：**4 条**（Lieberman 2007、Pennebaker & Beall 1986、Gross 2002、Larson & Chastain 1990；Gross & Levenson 1993 待核）
 - 2026-10-27 研究 07 文献核验：**2 条**（Sorce et al. 1985、Feinman 1982；Walden & Ogan 1988 待核，Bandura 为书目）
 - 2026-10-27 研究 06 文献核验：**11 条**（`✓`：题名 + 期刊 + 年份，两个独立来源交叉比对；卷页未逐一打开者标「待核」）
 - 书目/未核验：**15 条**（引用前须二次核对）；另 Bjork 必要难度为二手转述，专著待核。
