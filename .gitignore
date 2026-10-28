@@ -1,0 +1,11 @@
+# Python 缓存：不进仓库。
+# 2026-10-28 之前 engine/__pycache__/sim.cpython-312.pyc 曾被提交（0ad7d6c），
+# 属误提交——字节码随解释器版本变化，对读者无信息量，且每次跑脚本都会变脏。
+__pycache__/
+*.py[cod]
+
+# 编辑器与系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
